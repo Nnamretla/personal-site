@@ -1,18 +1,105 @@
-<section class="card">
-  <strong>Leistungsschwerpunkte</strong>
-  <ul>
-    <li>Managementsysteme (u. a. ISO 9001)</li>
-    <li>SGA / Arbeitsschutzmanagement nach ISO 45001</li>
-    <li>Fachkraft für Arbeitssicherheit (Sifa)</li>
-    <li>Datenschutz (DSB)</li>
-    <li>Informationssicherheit</li>
-    <li>Nachhaltigkeit / Umweltmanagement</li>
-  </ul>
-</section>
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Christian Bergmann – Unternehmensberatung & Managementsysteme</title>
+  <meta name="description" content="Christian Bergmann – Inhaber (Einzelfirma) | Dienstleistungen / Unternehmensberatung: Managementsysteme, SGA (ISO 45001), Sifa, DSB, Informationssicherheit, Nachhaltigkeit." />
+  <meta name="robots" content="index,follow" />
 
-<section class="card">
-  <strong>Kontakt</strong>
-  <p class="small" style="margin-bottom:0;">
-    (Hier trägst du später eine E-Mail-Adresse oder ein Kontaktformular ein – sag mir einfach, was du willst.)
-  </p>
-</section>
+  <!-- Optional: Canonical später auf eigene Domain umstellen -->
+  <link rel="canonical" href="https://nnamretla.netlify.app/" />
+
+  <style>
+    :root { --max: 860px; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header, main, footer { max-width: var(--max); margin: 0 auto; padding: 24px; }
+    header { padding-top: 40px; }
+    h1 { font-size: 2rem; margin: 0 0 8px; }
+    .sub { font-size: 1.05rem; opacity: .85; margin: 0 0 18px; }
+    .card { border: 1px solid #e6e6e6; border-radius: 14px; padding: 18px; margin: 18px 0; }
+    ul { margin: 10px 0 0 18px; }
+    .grid { display: grid; grid-template-columns: 120px 1fr; gap: 18px; align-items: start; }
+    .avatar { width: 120px; height: 120px; border-radius: 16px; background: #f2f2f2; display: grid; place-items: center; color: #666; font-size: .85rem; }
+    .small { font-size: .95rem; opacity: .85; }
+    a { color: inherit; }
+    @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } .avatar { width: 140px; height: 140px; } }
+  </style>
+
+  <!-- Strukturierte Daten (Person) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Christian Bergmann",
+    "jobTitle": "Inhaber (Einzelfirma) – Unternehmensberatung / Dienstleistungen",
+    "knowsAbout": [
+      "Managementsysteme",
+      "Qualitätsmanagement (ISO 9001)",
+      "SGA / Arbeitsschutzmanagement (ISO 45001)",
+      "Fachkraft für Arbeitssicherheit (Sifa)",
+      "Datenschutz (DSB)",
+      "Informationssicherheit",
+      "Nachhaltigkeit / Umweltmanagement"
+    ],
+    "url": "https://nnamretla.netlify.app/",
+    "sameAs": [
+      "https://www.qmb-bergmann.de/"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Christian Bergmann</h1>
+    <p class="sub">Inhaber (Einzelfirma) · Dienstleistungen / Unternehmensberatung</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="grid">
+        <div class="avatar">Foto folgt</div>
+        <div>
+          <p style="margin-top:0;">
+            Schwerpunkte: Managementsysteme, SGA (ISO 45001), Fachkraft für Arbeitssicherheit (Sifa),
+            Datenschutz (DSB), Informationssicherheit sowie Nachhaltigkeit.
+          </p>
+          <p class="small" style="margin-bottom:0;">
+            Website: <a href="https://www.qmb-bergmann.de/" rel="noopener">qmb-bergmann.de</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <strong>Leistungsschwerpunkte</strong>
+      <ul>
+        <li>Managementsysteme (u. a. ISO 9001)</li>
+        <li>SGA / Arbeitsschutzmanagement nach ISO 45001</li>
+        <li>Fachkraft für Arbeitssicherheit (Sifa)</li>
+        <li>Datenschutz (DSB)</li>
+        <li>Informationssicherheit</li>
+        <li>Nachhaltigkeit / Umweltmanagement</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <strong>Kontakt</strong>
+      <p class="small" style="margin-bottom:0;">
+        (Hier trägst du später eine E-Mail-Adresse oder ein Kontaktformular ein – sag mir einfach, was du willst.)
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="small">
+      © <span id="y"></span> Christian Bergmann
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
