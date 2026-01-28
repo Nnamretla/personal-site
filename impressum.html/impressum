@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Impressum</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:auto;padding:30px;line-height:1.5;}
+h1{font-size:2em;}
+</style>
+</head>
+
+<body>
+
+<h1>Impressum</h1>
+
+<p>Angaben gemäß § 5 TMG</p>
+
+<p>
+Verantwortlich für den Inhalt:<br>
+Christian Hartmut Bergmann<br>
+Münchhofer Str. 14<br>
+53797 Lohmar
+</p>
+
+<p>
+Telefon: 02206 864386-0<br>
+E-Mail: info(at)qmb-bergmann.de
+</p>
+
+<p>
+Umsatzsteuer-Identifikationsnummer gemäß §27a UStG:<br>
+DE305650650
+</p>
+
+</body>
+</html>
